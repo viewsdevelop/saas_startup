@@ -7,7 +7,7 @@ $(document).ready(function() {
         var error = false;
         var ccNum = $('#card_number').val(),
             cvcNum = $('#card_code').val(),
-            expMonth = $('#card_month').val(),
+            expMonth = $('#card_month').val(), 
             expYear = $('#card_year').val();
         
         if (!error) {
